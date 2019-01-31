@@ -291,6 +291,20 @@ h1 {
   box-shadow: none;
 }
 
+.avatar.gakuji {
+  background-image: url('../images/gakuji.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  box-shadow: none;
+}
+
+.avatar.carlos {
+  background-image: url('../images/carlos.png');
+  background-position: 0px 0px;
+  background-size: cover;
+  box-shadow: none;
+}
+
 .avatar.osawa {
   background-image: url('../images/12036748_475072146007888_6841150556385716509_n.jpg');
   background-position: 0px 0px;
