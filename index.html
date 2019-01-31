@@ -346,9 +346,7 @@ color: #fff;
                 title:  'instance0, inc.'
                 });
                // Following Lines are needed if you use the Info Window to display content when map marker is clicked
-		   var infowindow = new google.maps.InfoWindow({
-                            content: contentString
-                        });
+		   var infowindow = new google.maps.InfoWindow();
 	    	// Following line turns the marker, into a clickable button and when clicked, opens the info window
             	google.maps.event.addListener(mapMarker, 'click', function() {
                 	infowindow.open(map, mapMarker);
